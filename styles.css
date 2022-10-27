@@ -1,0 +1,111 @@
+:root {
+  --home-color: rgb(17, 92, 149);
+  --css-color: rgb(38, 108, 13);
+  --js-color: rgb(67, 37, 22);
+  --jq-color: rgb(140, 26, 45);
+}
+
+.header {
+  z-index: 4;
+}
+
+.home-btn {
+  width: 50px;
+}
+
+.nav-btn {
+  width: 50px;
+  margin-right: 10px;
+}
+
+#nav-menu {
+  position: absolute;
+  right: 0;
+  top: 45px;
+  background-color: var(--primary-color);
+  z-index: 3;
+}
+
+#nav-menu ul {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+#nav-menu ul li {
+  list-style: none;
+  padding: 1rem 3rem 1rem 1rem;
+  border: 1px solid white;
+  font-size: 25px;
+  color: white;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(119, 118, 117, 0.454);
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  border-radius: 10px;
+}
+
+.card {
+  max-width: 400px;
+  height: 300px;
+  margin-top: 3rem;
+}
+
+.home-card {
+  height: 200px;
+}
+
+.cont-row {
+  padding-bottom: 3rem;
+}
+
+h1 {
+  font-size: 60px;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+.color {
+  color: var(--primary-color);
+}
+
+.bg-color {
+  background-color: var(--primary-color);
+}
+
+#css-hover:hover {
+  color: var(--home-color);
+  font-weight: 700;
+  font-style: italic;
+}
+
+button:hover {
+  opacity: 70%;
+}
+
+button:active {
+  opacity: 40%;
+}
+
+#transform {
+  transition: 0.5s;
+}
+
+#transform:hover {
+  transform: scale(1.1);
+}
